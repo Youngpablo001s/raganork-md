@@ -42,8 +42,8 @@ module.exports = {
     ANTI_BOT: process.env.ANTI_BOT || '',
     ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '6/10', // msgs/sec
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group auto unmuted!_\n_(edit AUTOUNMUTE_MSG)_',
-    AUTO_READ_STATUS: convertToBool(process.env.AUTO_READ_STATUS) || true,
-    READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || true,
+    AUTO_READ_STATUS: (process.env.AUTO_READ_STATUS) || true,
+    READ_MESSAGES: (process.env.READ_MESSAGES) || true,
     PMB_VAR: convertToBool(process.env.PMB_VAR) || false,
     DIS_PM: convertToBool(process.env.DIS_PM) || false,
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || true,
