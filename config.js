@@ -49,7 +49,7 @@ module.exports = {
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || true,
     PMB: process.env.PMB || '_Personal messages not allowed, BLOCKED!_',
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
-    SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || 'Raganork~ef3c41cebb51ec4f522e5cd646d7d7fd:4b457664366d414d6454633d',
+    SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || 'Raganork~1adcafa35c450622fdcf4224279489e6:2b476f6a706c2b716238633d',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '',
     BOT_INFO: process.env.BOT_INFO || 'Wally Jay Tech',
